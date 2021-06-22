@@ -356,7 +356,7 @@ section {
 
     .conteneur_football {
         .football {
-            overflow-x: auto;   
+            overflow-x: hidden !important;   
         }
         .conteneur_club {
             flex-direction: row !important;
@@ -372,6 +372,9 @@ section {
     
 
     .conteneur_basketball {
+        .basketball {
+            overflow-x: hidden !important;
+        }
         .conteneur_club {
             flex-direction: row !important;
             .item_club {
